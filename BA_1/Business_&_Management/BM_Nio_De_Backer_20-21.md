@@ -155,3 +155,64 @@ Sociaal ondernemerschap: hippie blabla
 17 SDGs -> 5 domeinen: people, prosperity, peace, partnership, planet
 -> subdoelstellingen
 
+## Deel 3: Sector analyse
+
+### Meso-omgeving
+
+De onderneming staat in wisselwerking met allerlei spelers in de externe omgeving. Deze spelers worden *belanghebbenden* of *stakeholders* genoemd en vormen samen de meso-omgeving.
+
+### Stakeholders
+
+Stakeholders zijn alle belanghebbenden in de omgeving van de onderneming die de gevolgen ondervinden van de beslissingen en acties van de organisatie.
+
+#### Financiele groepen:
+- Banken
+- Investeerders
+- Crowdfunding-platformen
+- ...
+
+#### (R)Overheid:
+- Verschillende niveaus
+- Ministeries, departementen, ...
+
+#### Pers, media
+- Kranten, radio, televisie, ...
+- Websites, e-mail, sociale media, ...
+
+#### Maatschappij
+Belangenorganisaties zoals consumenten en werkgeverorganisaties en ook actiegroepen.
+
+### Klanten
+Organisaties ontlenen hun bestaansrecht aan het invullen van de behoeften van klanten. Het is de klant die betaald voor de aangeboden goederen of diensten. Wil een onderneming haar klanten behouden, dan moet de beloofde klantwaarde worden opgeleverd.
+
+### Leveranciers
+
+Relaties onderhouden:
+- prijs
+- kwaliteit
+- beschikbaarheid; leveringstermijnen
+
+### Concurrenten
+- Producten die op dezelfde markt worden aangeboden
+- Waardeaanbod voor dezelfde klanten
+
+#### Soorten concurrenten
+- Product of merkconcurrentie
+- Concurrentie binnen de product categorie
+- Generieke concurrentie
+- Behoeftenconcurrentie
+
+#### Substitutie
+Producten uit andere markten die dezelfde behoefte bevredigen
+
+#### Vijf krachtenmodel Porter
+
+
+## Deel 4: Analyse van de organisatie
+
+## Deel 5: SWOT-analyse
+
+## Deel 6: Waardeaanbod bepalen
+
+## Deel 7: Opvolging
+
