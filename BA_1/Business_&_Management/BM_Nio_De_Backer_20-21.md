@@ -206,7 +206,29 @@ Relaties onderhouden:
 Producten uit andere markten die dezelfde behoefte bevredigen
 
 #### Vijf krachtenmodel Porter
+Nieuwe toetrederes:
+toetredingsbarrieres.
 
+Leveranciers: onderhandelingspositie van leveranciers
+
+Bedrijfstak Concurrenten: Intensiteit van rivaliteit
+
+Afnemers: Onderhandelings positie van kopers
+
+Substituten: Bedrijgingen van substituten
+
+Winstkansen gaan omhoog wanneer: minder concurrenten, of substitutiedreiging en meer drempels, leveranciers en klanten.
+
+### Triple Bottomline
+- profit
+- people
+- planet
+
+Mickey Mouse: veel profit, weinig people en planet
+
+Weak Sus: evenveel van elk
+
+Strong Sus: Heel veel planet, veel people en normaal profit
 
 ## Deel 4: Analyse van de organisatie
 
