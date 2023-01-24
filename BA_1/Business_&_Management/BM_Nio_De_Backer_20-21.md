@@ -232,9 +232,191 @@ Strong Sus: Heel veel planet, veel people en normaal profit
 
 ## Deel 4: Analyse van de organisatie
 
+### Interne omgeving
+De interne omgeving bestaat uit de middelen en de capaciteiten van een organisatie. De middelen zijn haar bezittingen. De capaciteiten van een organisatie zijn vaardigheden en het vermogen om de nodige activiteiten te ontplooien.
+Analyse van de interne omgeving geeft inzicht in de sterkten en zwakten van organisatie.
+
+#### Sterkten
+Interne componenten, met **een gunstige invloed** op de realisatie van doelstellingen. Ze kunnen een troef zijn wanneer ze realisatie van doelstelling versnellen of ondersteunen.
+
+#### Zwakten
+Interne componenten, met **een ongunstige invloed** op de realisatie van doelstellingen. Ze kunnen een troef zijn wanneer ze realisatie van doelstelling versnellen of ondersteunen.
+
+#### Sterkte of zwakte
+Mate waarin interne component als sterkte of zwakte wordt beoordeeld is o.a. afhankelijk van:
+- gekozen strategie van organisatie
+- de markt waarop men actief is: gedrag van klanten en concurrenten
+- de wijze waarop er op externe situaties wordt gereageerd.
+
+#### Benchmarking
+= een referntiepunt, een maatstaf
+Het doel is het bestuderen van bedrijfsprocessen bij andere organisaties om verbeterpunten voor de eigen competenties op te sporen.
+
+#### Aandacht voor MVO
+(Zie sterkte of zwakte) + de gekozen strategie duurzaam is
+
+### Waardeketen van Porter
+![Waardeketen porter](./img/waardeketen-porter.png)
+
+Interacties met stakeholders systematisch onderzoeken
+
+#### Primaire activiteiten
+- Ontvangst en opslag
+- Productie
+- Fysieke distributie
+- Marketing en verkoop
+- Dienstverlening
+
+#### Ondersteunende activiteiten
+- Inkoopmanagement
+- Technologie en ontwikkeling
+- Personeel & organisatie (HRM)
+- Infrastructuur
+
+#### Marge
+= het verschil tussen de totale kosten van alle primaire en ondersteunende activiteiten en de totale opbrengsten van de organisatie
+
+### VRIO-model
+![VRIO-model](./img/VRIO.png)
+
+helpt identificatie van middelen die concurrentievoordeel opleveren of juist zwak scoren
+
+### BGC-matrix
+Portfolio van alle producten die een bedrijf op dit ogenblik op de markt aanbiedt.
+
+RM = (Eigen marktaandeel)/(Marktaandeel vd grootste concurrent)
+
+![BGC-matrix](./img/BGC.png)
+
+-> streven naar een evenwichtige protefeuille
 ## Deel 5: SWOT-analyse
 
-## Deel 6: Waardeaanbod bepalen
+### SWOT-analyse
+Strenghts - Weaknesses - Opportunities - Threats
 
+Doel:
+- Onderbouwing voor de strategiekeuze: Hoe gaan we de continuïteit realiseren?
+- Beter inspelen op weerbaar zijn in een dynamische externe omgeving: Inzicht in de huidige situatie helpt flexibele besluitsvorming
+
+### Confrontatiematrix
+Laat zien hoe de organisatie aansluit op de externe omgeving door de sterke en zwakke punten uit de interne analyse af te toetsen tegenover de kansen en bedreigingen uit de externe analyse.
+
+#### Werkwijze
+
+1. Selecteer de 3 belangrijkste sterkten, zwakten, kansen en bedreigingen.
+2. Koppel in de matrix sterkten en zwakten aan de kansen en bedreigingen.
+3. Confronteer een factor uit de externe omgeving met een factor uit de interne omgeving.
+
+![Confrontatiematrix](./img/Confrontatiematrix.png)
+
+#### Interpretatie van de kreuispunten
+
+![SWOT analyse](./img/SWOT.png)
+
+1. Elk vakje uit de matrix beoordeelt de relatie tussen 2 factoren uit de SWOT
+2. Daarna selecteer je enkele kruispunten die van strategisch belang zijn:
+  - Omdat er een sterk gunstig effect is
+  - Omdat er een sterk ongunstig effect is
+
+### Missie als leidraad
+
+#### Omschrijving
+- Geeft de organisatie een opdracht
+- Omschrijving bestaansreden
+- Benoemt de kernwaarden
+- Stuurt de continuïteitskring
+- Bakent de activiteiten af
+- Zorgt er voor dat belanghebbenden berei zijn mee te werken aan het project
+- Helpt een gemeenschappelijke identiteit uit te dragen
+
+#### Kenmerken van een goede missie
+
+- Markt georienteerd -> klant staat centraal
+- Inspirerend
+- Summier -> kort en krachtig
+- Specifiek -> tastbaar, concreet
+- Ijverig -> zet aan tot actie
+- Omstreden -> voer voor discussie
+- Nalatenschap -> voor een betere toekomst
+
+#### De missie stuurt de strategie
+- Een missie heeft betrekking op de hele onderneming. Ze schept een duidelijk beeld naar de buitenwerleld, maar is in de interne organisatie minstens even waardevol.
+- Een missie schept voor de medewerkens en andere stakeholders duidelijkheid over wat een organisatie doet en wat ze zeker niet doet.
+
+### Strategische keuzes
+
+#### Doelen en doelstellingen
+
+Doel: Een kwalitatieve omschrijving van een beoogd resultaat.
+
+Doelstelling: Een kwantitatieve omschrijving van een beoogd resultaat
+
+een doelstelling is **SMART**:
+- Specifiek
+- Meetbaar
+- Aanvaardbaar
+- Realistisch
+- Tijdskader/tijdsgebonden
+
+#### Groeistrategieën van Ansoff
+
+![Ansoff](./img/Ansoff.png)
+
+#### Waardestrategieën van Treacy & Wiersema
+![Treacy & Wiersema](./img/TraecyAndWiersema.png)
+
+### Strategie evalueren
+- Is huidige strategie nog werkbaar?
+- Zijn er uit de confrontatiematrix nieuwe strategische aandachtspunten voortgekomen?
+- Zijn er andere strategische mogelijkheden?
+
+- Suitability
+- Feasibility
+- Acceptability
+- MVO
+## Deel 6: Waardeaanbod bepalen
+(geen samenvatting van Deel 6)
 ## Deel 7: Opvolging
+
+### De gekozen strategie realiseren
+- Een strategie is de gekozen koers van de organisatie om haar langetermijndoelen te verwezenlijken
+- Om de strategie uit te rollen plant de organisatie hoe en waar de middelen worden ingezet
+- De uitvoering van dit plan wordt tijdens het jaar regelmatig opgevolgd dmv de PDCA-cyclus
+
+Plan: Activiteiten opstellen en coördineren
+
+Do: Het plan uitvoeren
+
+Check: Nagaan of alles volgens plan is verlopen: worden de doelstellingen behaald?
+
+Act: Waar en hoe moet het plan worden bijgestuurd?
+
+Bij de opvolging is de *Check* een heel belangrijk onderdeel:
+1. Is alles volgens plan verlopen, is het gewenste resultaat bekomen
+2. Als het werkt, weten we waarom het werkt? Kunnen we het succes standaardiseren en de kennis verankeren?
+3. Als het niet werkt weten we dan waarom? Wat zijn de correcties die we kunnen aanbrengen? De correcties terug in de PDCA cyclus brengen?
+
+### Strategiekaart
+
+Wat is een strategiekaart?
+- Het is een instrument dat helpt de strategie te vertalen naar activiteiten
+- Het is ook een handig hulpmiddel bij het analyseren van belangrijke informatie
+
+![Strategiekaart](./img/Strategiekaart.png)
+
+Hoe gebeurt n de *Check* van de PDCA-cyclus a.d.h.v. de strategiekaart?
+Er zijn 2 soorten indicatoren aanwezig:
+- lagging indicatoren: deze bevatten informatie over het verleden
+- leading indicatoren: deze bevatten informatie over een waarschijnlijke toekomst
+
+lagging kijken naar het verleden maar hebben geen voorspellende waarde
+
+leading kijken naar de toekomst en hebben voorspellende waarde naar omzet en winst
+
+### Balanced scorecard
+
+- Om de volledige PDCA-cyclus af te werken volstaat de strategiekaart niet
+- De strategiekaart is het vertrekpunt voor een zeer belangrijk managementinstrument: de balanced scorecard
+
+![balanced scorecard](./img/balancedscorecard.jpg)
 
