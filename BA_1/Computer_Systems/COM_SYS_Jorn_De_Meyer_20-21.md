@@ -1,37 +1,36 @@
 **Samenvatting Computer Systems**
 
-**[HS1: Inleiding]{.underline}**
+**<u>HS1: Inleiding</u>**
 
-**[1.1 -\> Computer vs Embedded Systems]{.underline}**
+**<u>1.1 -&gt; Computer vs Embedded Systems</u>**
 
 **Computer** = Multifunctioneel, programmeerbaar, digitaal ,
 elektronisch toestel.
 
 Deze begrippen hebben elk een verschillende & belangrijke betekening:
 
--   Multifunctioneel -\> We gebruiken het voor verschillende redenen (bv
-    het bekijken van videos, muziek beluisteren, tekst bewerken , ...)
+-   Multifunctioneel -&gt; We gebruiken het voor verschillende redenen
+    (bv het bekijken van videos, muziek beluisteren, tekst bewerken , …)
 
--   Programmeerbaar -\> We kunnen het toestel programmeren zodat het
+-   Programmeerbaar -&gt; We kunnen het toestel programmeren zodat het
     multifunctioneel wordt.
 
--   Digitaal -\> Discrete waarden (binair 0 & 1)
+-   Digitaal -&gt; Discrete waarden (binair 0 & 1)
 
--   Elektronisch -\> Het toestel werkt op spanning waarbij er stroomt
+-   Elektronisch -&gt; Het toestel werkt op spanning waarbij er stroomt
     doorheen het toestel vloeit
 
 **Embedded Systems** = (vaak kleinere) computer die deel uitmaakt van
 een ander (groter) toestel. Deze computer heeft vaak een specifieke
 functie die verbonden is met het toestel waar het inzit.
 
-VB -\> Een computertje dat in een auto zit en dat gaat detecteren of er
-regen is. Als het regen detecteert dan gaat het de ruitenwissers
+VB -&gt; Een computertje dat in een auto zit en dat gaat detecteren of
+er regen is. Als het regen detecteert dan gaat het de ruitenwissers
 activeren.
 
-**[1.2 -\> Hedendaagse technologie]{.underline}**
+**<u>1.2 -&gt; Hedendaagse technologie</u>**
 
-[Vandaag de dag is digitale elektronica de dominante
-technologie.]{.underline}
+<u>Vandaag de dag is digitale elektronica de dominante technologie.</u>
 
 -   Er zijn wel nog andere mogelijke technologieën waarmee bv
     mechanische, optische en kwantumcomputers worden gebouwd.
@@ -41,22 +40,23 @@ gebruikt om berekeningen mee uit te voeren. Hij was programmeerbaar,
 maar Babbage kon in zijn tijd deze machine niet ontwerpen want hij had
 er de nodige onderdelen toen nog niet voor.
 
-**[1.3 -\> Digitale elektronica?]{.underline}**
+**<u>1.3 -&gt; Digitale elektronica?</u>**
 
-[Elektronica]{.underline} : Technologie die gebruikt maar van
-elektrische signalen om informatie en/of energie te verwerken.
+<u>Elektronica</u> : Technologie die gebruikt maar van elektrische
+signalen om informatie en/of energie te verwerken.
 
-[Digitaal:]{.underline} Maakt gebruik van concrete, discontinue waarden
+<u>Digitaal:</u> Maakt gebruik van concrete, discontinue waarden
 
-[Binair:]{.underline} maakt gebruik van slechts 2 waarden (0 en 1)
+<u>Binair:</u> maakt gebruik van slechts 2 waarden (0 en 1)
 
 2 andere vormen:
 
-Analoge elektronica -\> Verwerkt informatie op een analoge manier
+Analoge elektronica -&gt; Verwerkt informatie op een analoge manier
 
-Vermogen elektronica -\> We gaan ipv informatie, energie gaan verwerken.
+Vermogen elektronica -&gt; We gaan ipv informatie, energie gaan
+verwerken.
 
-**[1.4 -\> Analoog vs Digitaal]{.underline}**
+**<u>1.4 -&gt; Analoog vs Digitaal</u>**
 
 Analoog : Elke spannings-of stroomwaarde tussen 2 grenzen heeft een
 betekenis
@@ -70,12 +70,12 @@ Of bv dat een toestel 0 tot 10V kan verbruiken : dan is 0V = 0% en 100V
 
 Digitaal : slechts 2 waarden zijn geldig (0 en 1)
 
-TTL -\> TransistorTransistorLogica : bv alle waarden onder 0.5V hebben
+TTL -&gt; TransistorTransistorLogica : bv alle waarden onder 0.5V hebben
 binair getal 0. Alles daarboven is de waarde 1.
 
-**[1.5 -\> Waarom digitale elektronica?]{.underline}**
+**<u>1.5 -&gt; Waarom digitale elektronica?</u>**
 
-1)  Kwaliteit
+1.  Kwaliteit
 
 -   Stabiel in de tijd en bewerkingen of versturen
 
@@ -85,92 +85,117 @@ zal de informatie perfect doorgestuurd worden
 -   Zelf kiezen
 
 We kunnen de kwaliteit zelf gaan kiezen bijvoorbeeld bij het bekijken
-van een video. TRADE OFF -\> Het neemt meer ruimte in beslag.
+van een video. TRADE OFF -&gt; Het neemt meer ruimte in beslag.
 
 -   Verschillende kwaliteiten op hetzelfde toestel
 
-2)  Productieprijs
+1.  Productieprijs
 
 -   Digitale schakelingen zijn eenvoudiger en lenen zich gemakkelijker
     tot hoge integratie op IC (Integrated Circuit)
 
-3)  Dezelfde hardware
+1.  Dezelfde hardware
 
 -   Kan gebruik worden voor verschillende informatie (tekst , beeld ,
-    geluid, ...)
+    geluid, …)
 
-4)  Redundantie, encryptie en compressie eenvoudig toe te passen
+1.  Redundantie, encryptie en compressie eenvoudig toe te passen
 
-5)  Redelijk betrouwbaar
+2.  Redelijk betrouwbaar
 
-6)  Klein
+3.  Klein
 
-**[1.6 -\> Expermintele technologieën]{.underline}**
+**<u>1.6 -&gt; Expermintele technologieën</u>**
 
-1)  Optische technologie
+1.  Optische technologie
 
 -   Het gebruik van lichtstralen die worden geproduceerd door bv lasers
     om berekeningen te gaan doen.
 
-+-----------------------------------+-----------------------------------+
-| [Voordelen]{.mark}                | [Nadeel]{.mark}                   |
-+===================================+===================================+
-| -   Snel                          | Voor niet alle elektrische        |
-|                                   | componenten is er al een optisch  |
-| -   Verbruikt weinig energie      | component. Een tijdelijke         |
-|                                   | tussenstap hierop zijn hybride    |
-| -   Minder warmteproductie        | systemen.                         |
-|                                   |                                   |
-| -   Hogere bandbreedtes           |                                   |
-+-----------------------------------+-----------------------------------+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><mark>Voordelen</mark></th>
+<th><mark>Nadeel</mark></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ul>
+<li><p>Snel</p></li>
+<li><p>Verbruikt weinig energie</p></li>
+<li><p>Minder warmteproductie</p></li>
+<li><p>Hogere bandbreedtes</p></li>
+</ul></td>
+<td>Voor niet alle elektrische componenten is er al een optisch
+component. Een tijdelijke tussenstap hierop zijn hybride systemen.</td>
+</tr>
+</tbody>
+</table>
 
-2)  Kwantumtechnologie
+2.  Kwantumtechnologie
 
-Maakt gebruik van 'kwantumdeeltjes' ipv elektronen om berekeningen uit
+Maakt gebruik van ‘kwantumdeeltjes’ ipv elektronen om berekeningen uit
 te voeren. Het geheugen bestaat uit qubits die de waarden 0 & 1 kunnen
 bevatten en elke qubits heeft de waarde van 2 bits.
 
-  -----------------------------------------------------------------------
-  [Voordeel]{.mark}                   [Nadeel]{.mark}
-  ----------------------------------- -----------------------------------
-  Een enorm grote hvlheid data kan in Er is heel wat nodig om een
-  1 keer worden berekend & worden ook kwantumcomputer stabiel te houden
-  veel sneller berekend.              (bv een heel sterke koeling)
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><mark>Voordeel</mark></th>
+<th><mark>Nadeel</mark></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Een enorm grote hvlheid data kan in 1 keer worden berekend &amp;
+worden ook veel sneller berekend.</td>
+<td>Er is heel wat nodig om een kwantumcomputer stabiel te houden (bv
+een heel sterke koeling)</td>
+</tr>
+</tbody>
+</table>
 
-  -----------------------------------------------------------------------
+**<u>HS2: Besturingssystemen</u>**
 
-**[HS2: Besturingssystemen]{.underline}**
-
-**[2.1 -\> Wat is een besturingssysteem?]{.underline}**
+**<u>2.1 -&gt; Wat is een besturingssysteem?</u>**
 
 = Software die op een computerapparaat wordt uitgevoerd en die de
 software & hardwarecomponenten gaat gaan beheren.
 
-[Scheduling]{.underline} = de processor gaat prioriteiten stellen en
-gaat sommige zaken in een wachtrij zetten en andere systeemopdrachten
-gaat hij voortrekken.
+<u>Scheduling</u> = de processor gaat prioriteiten stellen en gaat
+sommige zaken in een wachtrij zetten en andere systeemopdrachten gaat
+hij voortrekken.
 
 OS = Operating System
 
-[Hardware]{.underline} = Het fysieke deel (wat je kunt aanraken) van een
+<u>Hardware</u> = Het fysieke deel (wat je kunt aanraken) van een
 computer + de onderliggende elektronica (headsets, muis, toetsenbord ,
-...)
+…)
 
-[Kernel]{.underline} = vormt de communicatie tussen de computer & de
-hardware en gaat de hardwarebronnen gaan beheren.
+<u>Kernel</u> = vormt de communicatie tussen de computer & de hardware
+en gaat de hardwarebronnen gaan beheren.
 
-[Shell]{.underline} = de gebruikersinterface waarin de gebruiker
-specifieke taken kan aanvragen aan de computer. Deze verzoeken kunnen
-worden gedaan via de GUI en de CLI (zie volgend stukje) .
+<u>Shell</u> = de gebruikersinterface waarin de gebruiker specifieke
+taken kan aanvragen aan de computer. Deze verzoeken kunnen worden gedaan
+via de GUI en de CLI (zie volgend stukje) .
 
-**[2.2 -\> GUI vs CLI]{.underline}**
+**<u>2.2 -&gt; GUI vs CLI</u>**
 
 GUI = graphical user interface // Je bureaublad met alle icoontjes
 
 CLI = command-line interface // opdrachtenprompt (code ingeven om taken
 te gaan uitvoeren)
 
-**[2.3 -\> Keuze besturingssysteem]{.underline}**
+**<u>2.3 -&gt; Keuze besturingssysteem</u>**
 
 De 3 belangrijkste besturingssystemen vandaag zijn:
 
@@ -186,23 +211,23 @@ gebaseerd op Unix/Linux.
 Een aantal factoren spelen een belangrijke rol bij het kiezen van een
 geschikt besturingssysteem.
 
-1)  Stabiliteit: Zijn de OS-releases getest of niet getest?
+1.  Stabiliteit: Zijn de OS-releases getest of niet getest?
 
-2)  Rol: Is het voor 1 gebruiker (desktop), of voor meerdere (server)?
+2.  Rol: Is het voor 1 gebruiker (desktop), of voor meerdere (server)?
 
-3)  Functie: waarvoor heet de gebruikher het nodig
+3.  Functie: waarvoor heet de gebruikher het nodig
 
-4)  Comptabiliteit : het moet achterwaarts compatibel zijn.
+4.  Comptabiliteit : het moet achterwaarts compatibel zijn.
 
-5)  Kost: Microsoft -\> jaarlijkse licenties
+5.  Kost: Microsoft -&gt; jaarlijkse licenties
 
 Apple : draait alleen maar op apple hardware
 
 Linux : is gratis maar de support is betalend
 
-**[Bespreking van de besturingssystemen:]{.underline}**
+**<u>Bespreking van de besturingssystemen:</u>**
 
-1)  Microsoft windows
+1.  Microsoft windows
 
 Biedt desktop & serverversies
 
@@ -210,29 +235,29 @@ Langzame release- en onderhoudscyclus
 
 Nadruk ligt op achterwaartse compatibiliteit
 
-Het heeft een GUI -\> Nadruk ligt hier ook op.
+Het heeft een GUI -&gt; Nadruk ligt hier ook op.
 
 Er worden verbeterde scripting & beheersmogelijkheden gemaakt om de
 kunnen concurreren met linux.
 
-2)  Apple macOS
+1.  Apple macOS
 
 Werkt alleen maar op apple hardware
 
 Unix gecertificeerd
 
-Om de 18 -- 24 maanden een grote release/update
+Om de 18 – 24 maanden een grote release/update
 
-3)  Linux
+1.  Linux
 
 Uniek aan Linux is dat je na het kiezen van linux een bepaalde
 distributie moet kiezen
 
 Verschillende distributies richting zich op verschillende use-cases.
 
-**[2.4 -\> Linux Distributies]{.underline}**
+**<u>2.4 -&gt; Linux Distributies</u>**
 
-**[Red hat]{.mark}**
+**<span class="mark">Red hat</span>**
 
 Dit gaat zich vooral richten op servertoepassingen zoals web-en
 bestandsserver
@@ -246,7 +271,7 @@ software
 CentOS is een gratis versie van RHEL-software die geen ondersteuning
 biedt
 
-**[SUSE]{.mark}**
+**<span class="mark">SUSE</span>**
 
 1 vd eerste distributies
 
@@ -257,7 +282,7 @@ Bevat eigen code & wordt verkocht als een serverproduct.
 OpenSUSE is een volledig open, gratis versie met meerdere desktop
 pakketten.
 
-**[Debian]{.mark}**
+**<span class="mark">Debian</span>**
 
 Uitgebracht door een community die het gebruik van open source software
 bevordert.
@@ -267,7 +292,7 @@ Heeft zijn eigen pakketbeheersysteem uitgevonden op basis van het
 
 Ubuntu = 1 vd meest populaire afgeleide distributie.
 
-**[Android]{.mark}**
+**<span class="mark">Android</span>**
 
 Biedt een platform voor mobiele gebruikers
 
@@ -277,14 +302,14 @@ Gesponsord door google
 
 **Andere**
 
--   **[Raspbian :]{.mark}** gemaakt om op een RaspberryPi hardware te
-    draaien.
+-   **<span class="mark">Raspbian :</span>** gemaakt om op een
+    RaspberryPi hardware te draaien.
 
--   **[Linux From Scratch:]{.mark}** bestaat uit een online boek,
-    broncode en instructies voor het bouwen van een aangepaste Linux
-    distributie.
+-   **<span class="mark">Linux From Scratch:</span>** bestaat uit een
+    online boek, broncode en instructies voor het bouwen van een
+    aangepaste Linux distributie.
 
-**2.5 -\> Open Source Licenties**
+**2.5 -&gt; Open Source Licenties**
 
 **End User License Agreement (EULA)**
 
@@ -301,29 +326,29 @@ dezelfde licentie vallen.
 
 Iedereen kan de broncode bekijken, wijzigen en opnieuw gaan verspreiden.
 
-**[HS3: Basiskennis Linux (zie cheatsheet)]{.underline}**
+**<u>HS3: Basiskennis Linux (zie cheatsheet)</u>**
 
-**3.1 -\> Linux introductie**
+**3.1 -&gt; Linux introductie**
 
 Linux is overal en er zijn veel jobs voor beschikbaar. Er is een groot
 tekort aan Linux talent & er is overal vraag naar zulke mensen (elke
 sector!).
 
-Linux = kernel vh systeem -\> Het regelt zowat alles wat er op de
+Linux = kernel vh systeem -&gt; Het regelt zowat alles wat er op de
 computer gebeurt.
 
 (=centrale controller)
 
 Linux = een combinatie van GNU / Linux
 
-GNU = gratis open source software die veel commando's aanbiedt & die
-gelijkaardig zijn aan UNIX-commando's
+GNU = gratis open source software die veel commando’s aanbiedt & die
+gelijkaardig zijn aan UNIX-commando’s
 
 Unix : Voorloper op Linux , dit was een besturingssysteem die werd
 ontwikkeld in de jaren 70 en die werd gebruikt voor een grote machines.
 geschreven in de C-taal en low lvl programmeertaal.
 
-[Geschiedenis Linux]{.underline}
+<u>Geschiedenis Linux</u>
 
 Begon in 1991 als hobbyproject van Linus Torvalds (Finland). Studeerde
 aan de universiteit van Helsinki.
@@ -351,7 +376,7 @@ De keuze voor linux wordt beïnvloed door:
 -   Compatibiliteit: distributies zijn kosteloos. Je kan wel eventueel
     betalen voor ondersteuning.
 
-**[3.2 -\> De Shell]{.underline}**
+**<u>3.2 -&gt; De Shell</u>**
 
 Vanaf een gebruiker een commando ingeeft, accepteert de terminal dit en
 geeft dit door aan de Shell.
@@ -359,7 +384,7 @@ geeft dit door aan de Shell.
 CLI biedt een nauwkeurige controle, is heel snel en kan taken
 makkelijker laten gaan dmv scripts.
 
-De shell vertaalt de commando's naar opdrachten die hij doorgeeft aan
+De shell vertaalt de commando’s naar opdrachten die hij doorgeeft aan
 het besturingssysteem die het dan moet gaan uitvoeren.
 
 Linux: ondersteunt gebruik van verschillende shells.
@@ -381,9 +406,9 @@ De bash-shell heeft populaire functies zoals:
 Een belangrijk deel vd interface is de prompt, dit bevat informatie over
 de gebruiker en over het systeem.
 
-![](media/image1.png){width="6.3in" height="0.37430555555555556in"}
+<img src="./img/prompt.jpg" />
 
-**[3.3 -\> Commandostructuur]{.underline}**
+**<u>3.3 -&gt; Commandostructuur</u>**
 
 Commando = een softwareprogramma dat wordt uitgevoerd door de CLI en een
 actie op de computer uitvoert.
@@ -391,7 +416,7 @@ actie op de computer uitvoert.
 Met het commando ls kunnen we te weten komen welke info er zoal in de
 map staat.
 
-We kunnen opties en argumenten toevoegen aan onze commando's:
+We kunnen opties en argumenten toevoegen aan onze commando’s:
 
 Opties: het gedrag vh commando veranderen
 
@@ -404,47 +429,48 @@ Een vb van een argument is dat als we de inhoud van een andere map
 willen zien waar we momenteel niet inzitten, kunnen we gaan verwijzen
 naar die map.
 
-Bijvoorbeeld: ls /etc/ppp -\> Nu gaat hij de bestanden uit de map PPP
+Bijvoorbeeld: ls /etc/ppp -&gt; Nu gaat hij de bestanden uit de map PPP
 tonen.
 
-Uitgevoerde commando's kunnen bewaard worden in de geschiedenislijst.
+Uitgevoerde commando’s kunnen bewaard worden in de geschiedenislijst.
 
 Door pijltje omhoog wordt het vorige commando op de promptregel gezet.
 
 Je kunt ook het commando history gebruiken om een lijst te krijgen van
-alle voorgaande commando's.
+alle voorgaande commando’s.
 
 Via history 5 kun je de laaste 5 commands zien
 
-Via !3 gaan we het 3^de^ commando uit de history lijst gaan uitvoeren.
+Via !3 gaan we het 3<sup>de</sup> commando uit de history lijst gaan
+uitvoeren.
 
-**[3.4 -\> Variabelen]{.underline}**
+**<u>3.4 -&gt; Variabelen</u>**
 
 Wordt gebruikt om gegevens op te slaan in de shell.
 
 Krijgen een naam & worden tijdelijk in het geheugen bewaard.
 
-Lokale variabelen -\> Enkel voor de huidige shell. Gaan verloren bij het
-sluiten vh terminalvenster of de shell.
+Lokale variabelen -&gt; Enkel voor de huidige shell. Gaan verloren bij
+het sluiten vh terminalvenster of de shell.
 
-Omgevingsvariabelen -\> Voor het volledige systeem beschikbaar.
+Omgevingsvariabelen -&gt; Voor het volledige systeem beschikbaar.
 
-Aanmaken v/e lokale variabele: variable1='something'
+Aanmaken v/e lokale variabele: variable1=‘something’
 
-Om de waarde van de variable weer te geven gebruiken we echo
-\$variable1, hierdoor zal het woordje something op het scherm komen.
+Om de waarde van de variable weer te geven gebruiken we echo $variable1,
+hierdoor zal het woordje something op het scherm komen.
 
 env gaan we gebruiken om alle globale variabelen te tonen
 
-echo \$HISTSIZE geeft de grootte van de geschiedenis mee (hvl commands)
+echo $HISTSIZE geeft de grootte van de geschiedenis mee (hvl commands)
 
 export wordt gebruikt om lokale variabelen globaal te gaan maken.
 
 unset wordt gebruikt om geëxporteerde variabelen te gaan verwijderen.
 
-**[3.5 -\> Aliassen]{.underline}**
+**<u>3.5 -&gt; Aliassen</u>**
 
-Gaan we gebruiken om grote commando's een soort oproemnaam/bijnaam te
+Gaan we gebruiken om grote commando’s een soort oproemnaam/bijnaam te
 geven zodat we niet het hele commando opnieuw moeten typen om dit zo te
 kunnen gaan gebruiken.
 
@@ -454,39 +480,39 @@ zien
 Het commando type (waarde) gebruiken we om meer informatie te krijgen
 over een bepaalde alias.
 
-**[3.6 -\> Aanhalingstekens]{.underline}**
+**<u>3.6 -&gt; Aanhalingstekens</u>**
 
-3 soorten: ' , " en \`
+3 soorten: ‘ , “ en \`
 
-Enkele aanhalingstekens (') worden gebruikt om speciale tekens te
+Enkele aanhalingstekens (‘) worden gebruikt om speciale tekens te
 negeren
 
-Bv : echo '\$hallo' \$hallo
+Bv : echo ‘$hallo’ -> $hallo
 
-" is eigenlijk hetzelfde, maar hierbij wordt de command terwijl ook
+“ is eigenlijk hetzelfde, maar hierbij wordt de command terwijl ook
 uitgevoerd binnen de haakjes.
 
 \` gebruik je als opdrachtvervanging
 
-Bv: \`date\` is hetzelfde als \$(date)
+Bv: \`date\` is hetzelfde als $(date)
 
-**[3.7 -\> Puntkomma]{.underline}**
+**<u>3.7 -&gt; Puntkomma</u>**
 
 Een puntkomma (;) wordt gebruikt om meerdere commands samen te voegen.
 
 Bijvoorbeeld echo hallo ik ben; echo een gebruiker
 
-Output hallo ik ben een gebruiker
+Output -> hallo ik ben een gebruiker
 
-Zonder puntkomma hallo ik ben echo een gebruiker
+Zonder puntkomma -> hallo ik ben echo een gebruiker
 
-**[3.8 -\> Hulp vragen]{.underline}**
+**<u>3.8 -&gt; Hulp vragen</u>**
 
 Unix is een besturingssysteem waarop Linux is gebaseerd.
 
 De ontwikkelaars van unix hebben hulpdocumenten gemaakt die meer duiding
 moeten geven hoe je het besturingssysteem moest gebruiken, deze noemde
-men 'man pages' (afk voor manual page).
+men ‘man pages’ (afk voor manual page).
 
 Deze bieden een basisbeschrijving v/h doel van het commando, evenals
 details over beschikbare opties.
@@ -516,22 +542,21 @@ zijn.
 locate -b (command) gaat je meer gedetailleerd tonen waar er bestanden
 hiervan gevonden zijn.
 
-(command) --help is voor basisinformatie van een bepaalde command.
+(command) –help is voor basisinformatie van een bepaalde command.
 
-**[3.9 -\> Bestandssystemen]{.underline}**
+**<u>3.9 -&gt; Bestandssystemen</u>**
 
 In linux wordt alles bewaard in bestanden
 
 Ze worden gebruikt om gegevens op te slaan, denk aan afbeeldingen, tekst
-en programma's.
+en programma’s.
 
 Een map (directory) wordt gebruikt om andere bestanden in op te gaan
 slaan.
 
 In linux: / Root
 
-![](media/image2.png){width="6.0078794838145235in"
-height="3.067221128608924in"}
+<img src="./img/Directories.png" />
 
 Met het commando pwd toont het systeem in welke map de user zich
 momenteel bevindt.
@@ -541,10 +566,9 @@ Het commando cd gebruiken we om te gaan veranderen van map.
 We kunnen bijvoorbeeld ingeven cd Documents om naar de map Documents te
 springen
 
-Gebruiken we gewoon cd, dan springen we terug naar de home directory
-(\~)
+Gebruiken we gewoon cd, dan springen we terug naar de home directory (~)
 
-[3.10 -\> Inhoud van mappen]{.underline}
+<u>3.10 -&gt; Inhoud van mappen</u>
 
 Ls gaan we standaard gebruiken om de inhoud van mappen weer te geven
 
@@ -568,7 +592,7 @@ Een absoluut pad gebruiken we om naar een EXACTE LOCATIE te gaan
 
 Vb : /home/sysadmin/Documents
 
-Van / -\> home -\> sysadmin -\> Documents
+Van / -&gt; home -&gt; sysadmin -&gt; Documents
 
 Een relatief pad gebruiken we als we effectief al in de map zitten
 waarin we documenten/mappen willen gaan gebruiken.
@@ -581,22 +605,22 @@ Met 2 puntjes ga je naar de map die hoger ligt dan je huidige map.
 
 Één punt refereert altijd naar de huidige directory
 
-**[3.11 -\> Globbing]{.underline}**
+**<u>3.11 -&gt; Globbing</u>**
 
 Globbing zorgt ervoor dat we meer specifiek opzoek kunnen gaan naar
 bestanden.
 
 We hebben enkele voorbeelden:
 
-'\*' -\> Alle bestanden geven die aan een bepaalde voorwaarde voldoen
+‘\*’ -&gt; Alle bestanden geven die aan een bepaalde voorwaarde voldoen
 
 Dus bv : \*t = alle bestanden die beginnen met een t.
 
 Of alle bestanden die als extensie 3 chars krijgen: \*.???
 
-'?' -\> Representeert precies 1 teken (om het even welk!)
+‘?’ -&gt; Representeert precies 1 teken (om het even welk!)
 
-'\[\]' -\> meerdere tekens
+‘\[\]’ -&gt; meerdere tekens
 
 Bijvoorbeeld: geef alle bestanden die beginnen met g of u
 
@@ -607,14 +631,14 @@ g
 
 Echo /etc/\[a-g\]\*
 
-'!' -\> Wordt gebruikt als een niet, in combinatie met \[\]
+‘!’ -&gt; Wordt gebruikt als een niet, in combinatie met \[\]
 
 Bijvoorbeeld: toon me alle bestanden die NIET beginnen met een a tot de
 letter e.
 
 Echo /etc/\[!a-e\]\*
 
-**[3.12 -\> Bestands-en mappenbeheer]{.underline}**
+**<u>3.12 -&gt; Bestands-en mappenbeheer</u>**
 
 cp (=copy) : hiermee gaan we bestanden gaan kopiëren. Dit commando heeft
 2 dingen nodig:
@@ -640,7 +664,7 @@ het verplaatsen van mappen.
 
 Het commando mv (=move) wordt gebruikt voor het verplaatsen van
 bestanden. Dit commando is helemaal niet hetzelfde als copy, want er
-wordt geen 2^de^ exemplaar gemaakt.
+wordt geen 2<sup>de</sup> exemplaar gemaakt.
 
 Voor mv heb je bepaalde rechten nodig die per gebruiker kunnen worden
 ingesteld (zie verder).
@@ -650,7 +674,7 @@ naar de map Music
 
 mv Documents/red.txt Music
 
-[BELANGRIJK]{.mark}
+<span class="mark">BELANGRIJK</span>
 
 -v en -i zijn van toepassing op het commando mv
 
@@ -669,17 +693,17 @@ het commando touch gebruiken we voor het aanmaken van nieuwe, lege
 documenten.
 
 Bijvoorbeeld: maak een nieuw bestand aan in de home directory met de
-naam 'nieuw'
+naam ‘nieuw’
 
 touch nieuw
 
-Om iets van waarde toe te voegen aan je bestand: echo 'waarde' \>
-'bestandsnaam'
+Om iets van waarde toe te voegen aan je bestand: echo ‘waarde’ &gt;
+‘bestandsnaam’
 
-Bijvoorbeeld: steek de tekst 'ik ben een nieuw bestand' in het bestand
+Bijvoorbeeld: steek de tekst ‘ik ben een nieuw bestand’ in het bestand
 nieuw.
 
-Echo ik ben een nieuw bestand \> nieuw
+Echo ik ben een nieuw bestand &gt; nieuw
 
 Om dit te gaan controleren, of gewoon de inhoud van een doc te
 controleren gebruiken we het commando cat
@@ -716,10 +740,10 @@ rm -r Documents
 
 Meteen alles verwijderen zonder bevestiging : rm -f
 
-**[\
-]{.underline}**
+**<u>  
+</u>**
 
-**[3.13 -\> Links]{.underline}**
+**<u>3.13 -&gt; Links</u>**
 
 Sommige bestanden bevinden zich heel diep in je systeem & hebben lange
 paden.
@@ -732,17 +756,17 @@ zit en het bestand in je home directory zetten.
 
 2 soorten links:
 
--   Hard link -\> hetzelfde bestand, maar met een andere naam. Deelt
+-   Hard link -&gt; hetzelfde bestand, maar met een andere naam. Deelt
     dezelfde inode. Wijzigingen op het originele bestand of de hard
     links worden op beide versies aangepast.
 
--   Soft link -\>De symbolische link verwijst alleen maar naar de
+-   Soft link -&gt;De symbolische link verwijst alleen maar naar de
     locatie van het bestand. Wijzigingen aan de soft link worden ook
     toegepast op het OG bestand en de hard link.
 
-[Voor & nadelen]{.underline}
+<u>Voor & nadelen</u>
 
-![](media/image3.png){width="6.3in" height="1.9638888888888888in"}
+<img src="./img/Links.png" />
 
 Met het commando ln kunnen we een hard link maken.
 
@@ -755,40 +779,40 @@ Ls -l bestand\* (kijken of het is gelukt)
 Voeg je er de optie -s aan toen , dan gaan we een symbolische / soft
 link maken.
 
-**[3.14 -\> Werken met tekst]{.underline}**
+**<u>3.14 -&gt; Werken met tekst</u>**
 
-Het commando 'cat' gaan we gebruiken om de inhoud van een tekstbestand
+Het commando ‘cat’ gaan we gebruiken om de inhoud van een tekstbestand
 te gaan opvragen.
 
-met (commando) \| head gaan we de eerste 10 regels van tekst weergeven
+met (commando) | head gaan we de eerste 10 regels van tekst weergeven
 
-\<=\> \|tail gaan we de laatste 10 weergeven
+&lt;=&gt; |tail gaan we de laatste 10 weergeven
 
-met echo '(TEKST)' \> (BESTAND) kunnen we tekst gaan steken in een
+met echo ‘(TEKST)’ &gt; (BESTAND) kunnen we tekst gaan steken in een
 bestand
 
-Als we dit commando een 2^de^ x zouden uitvoeren, dan zal de
+Als we dit commando een 2<sup>de</sup> x zouden uitvoeren, dan zal de
 oorspronkelijke tekst overschreven worden. Dit willen we niet.
 
-We lossen dit op door : echo '(TEKST)' **\>\>** (BESTAND)
+We lossen dit op door : echo ‘(TEKST)’ **&gt;&gt;** (BESTAND)
 
-via 1\> gaan we de standaardoutput van een document in een ander
+via 1&gt; gaan we de standaardoutput van een document in een ander
 document gaan stoppen
 
-vb: ls Documents 1\> outputfile
+vb: ls Documents 1&gt; outputfile
 
-Via 2\> gaan we de output van een error in een document gaan steken
+Via 2&gt; gaan we de output van een error in een document gaan steken
 
-vb : ls /fake 2\> errorfile (Dit geeft een error weer indien er geen map
-'fake' is)
+vb : ls /fake 2&gt; errorfile (Dit geeft een error weer indien er geen
+map ‘fake’ is)
 
-&\> gaan we gebruiken voor beide
+&&gt; gaan we gebruiken voor beide
 
-vb: ls Documents /fake &\> allfile
+vb: ls Documents /fake &&gt; allfile
 
-via \> kunnen we afwijken van de standaardinput
+via &gt; kunnen we afwijken van de standaardinput
 
-vb : tr 'a-z' 'A-Z' \< outputfile (hiermee zullen alle kleine letters
+vb : tr ‘a-z’ ‘A-Z’ &lt; outputfile (hiermee zullen alle kleine letters
 hoofdletters worden.)
 
 sort (BESTAND) : voor het sorteren van bestanden (op alfabet)
@@ -797,17 +821,17 @@ sort (BESTAND) : voor het sorteren van bestanden (op alfabet)
 
 wc (om het aantal regels, woorden en bytes weer te geven)
 
--w \--\>(enkel het aantal woorden)
+-w --&gt;(enkel het aantal woorden)
 
--l \--\>(enkel het aantal regels)
+-l --&gt;(enkel het aantal regels)
 
--c \--\>(enkel het aantal bytes)
+-c --&gt;(enkel het aantal bytes)
 
 cut (om tekstkolommen uit een bestand of standaardinvoer te halen)
 
 grep (zie slides)
 
-**[3.15 -\> groepen aanmaken]{.underline}**
+**<u>3.15 -&gt; groepen aanmaken</u>**
 
 Groepen staan gebruikers toe om documenten te gaan delen.
 
@@ -819,14 +843,14 @@ automatisch gedaan.
 opmerking : hiervoor moet je de rootgebruiker zijn. Een sysadmin bv kan
 dit niet.
 
-Het commando dat je hiervoor nodig hebt is 'su'. Geef het ww 'netlab123'
+Het commando dat je hiervoor nodig hebt is ‘su’. Geef het ww ‘netlab123’
 in.
 
 Via het commando cat /etc/group krijgen we een duidelijk overzicht van
 alle groepen die reeds al in het systeem zijn aangemaakt. Ook de groepen
 die je net hebt bijgemaakt.
 
-het commando 'groupmod' heeft 2 functies, afhankelijk van de optie die
+het commando ‘groupmod’ heeft 2 functies, afhankelijk van de optie die
 je eraan toevoegd
 
 -n: het veranderen van een groepsnaam
@@ -835,10 +859,10 @@ je eraan toevoegd
 
 groupdel gaan we gebruiken voor het verwijderen van groepen.
 
-**[\
-]{.underline}**
+**<u>  
+</u>**
 
-**[3.16 -\> Gebruikers aanmaken]{.underline}**
+**<u>3.16 -&gt; Gebruikers aanmaken</u>**
 
 Om een nieuwe gebruiker toe te gaan voegen aan het systeem gebruiken we
 het commando useradd (naam).
@@ -852,7 +876,7 @@ van onze gebruikers. Dit is ongeveer hetzelfde als bij group.
 opmerking : hiervoor moet je de rootgebruiker zijn. Een sysadmin bv kan
 dit niet.
 
-Het commando dat je hiervoor nodig hebt is 'su'. Geef het ww 'netlab123'
+Het commando dat je hiervoor nodig hebt is ‘su’. Geef het ww ‘netlab123’
 in.
 
 Met het commando passwd gaan we een wachtwoord gaan instellen voor een
@@ -865,9 +889,9 @@ met het commando id kun je het id opvragen van jezelf en van de groep
 waar je inzit.
 
 Door een andere gebruiker hier naast te zitten dus id (gebruiker) krijg
-je hun id's dan.
+je hun id’s dan.
 
-'who' gebruiken we om te kijken als wie je op dit moment bent ingelogd
+‘who’ gebruiken we om te kijken als wie je op dit moment bent ingelogd
 in het systeem
 
 met w kun je zien wie er is ingelogd op het systeem
@@ -886,7 +910,7 @@ met het commando su kun je als een andere gebruiker gaan inloggen
 
 met het commando exit kun je het profiel gaan verlaten
 
-**[3.17 -\> Permissies]{.underline}**
+**<u>3.17 -&gt; Permissies</u>**
 
 via ls -l kun je kijken welke permissies er van toepassing zijn op een
 bepaald doc.
@@ -902,7 +926,7 @@ I =een softlink
 De eerste 10 karakters van een bestand bepalen de rechten van dat
 bestand:
 
-**2-\>4 de rechten voor de eigenaar (user)**
+**2-&gt;4 de rechten voor de eigenaar (user)**
 
 r = leesrechten (read)
 
@@ -912,41 +936,76 @@ e = uitvoerrecht (execute)
 
 -   = niet toegekend recht
 
-5-\>7 de rechten voor de groep (group)
+5-&gt;7 de rechten voor de groep (group)
 
-8-\>10 de rechten voor anderen (others)
+8-&gt;10 de rechten voor anderen (others)
 
-  -----------------------------------------------------------------------
-  **karakter**    **Rechten toegepast op**
-  --------------- -------------------------------------------------------
-  **u**           eigenaar (user)
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 77%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>karakter</strong></th>
+<th><strong>Rechten toegepast op</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>u</strong></td>
+<td>eigenaar (user)</td>
+</tr>
+<tr class="even">
+<td><strong>g</strong></td>
+<td>groep (group) </td>
+</tr>
+<tr class="odd">
+<td><strong>o</strong></td>
+<td>andere (others)</td>
+</tr>
+<tr class="even">
+<td><strong>a</strong></td>
+<td>Iedereen (all)</td>
+</tr>
+</tbody>
+</table>
 
-  **g**           groep (group) 
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 77%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>karakter</strong></th>
+<th><strong>wijziging</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>+</strong></td>
+<td>recht(en) toekennen</td>
+</tr>
+<tr class="even">
+<td><strong>-</strong></td>
+<td>recht(en) verwijderen</td>
+</tr>
+<tr class="odd">
+<td><strong>=</strong></td>
+<td>recht(en) overschrijven</td>
+</tr>
+</tbody>
+</table>
 
-  **o**           andere (others)
+**<span class="mark">HS4: Logische schakelingen</span>**
 
-  **a**           Iedereen (all)
-  -----------------------------------------------------------------------
+<img src="./img/Schakelingen.png" style="width:2.93333in;height:3.78681in" />
 
-  -----------------------------------------------------------------------
-  **karakter**    **wijziging**
-  --------------- -------------------------------------------------------
-  **+**           recht(en) toekennen
-
-  **-**           recht(en) verwijderen
-
-  **=**           recht(en) overschrijven
-  -----------------------------------------------------------------------
-
-**[HS4: Logische schakelingen]{.mark}**
-
-![](media/image4.png){width="2.933333333333333in"
-height="3.7868055555555555in"}
-
-Bij de EN -- poort moeten zowel de stuurlijn als het singaal 1 zijn om
+Bij de EN – poort moeten zowel de stuurlijn als het singaal 1 zijn om
 het signaal door te sturen.
 
-![](media/image5.jpg){width="6.3in" height="1.6659722222222222in"}
+<img src="./img/EN-poort.jpg" style="width:6.3in;height:1.66597in" />
 
 Bij een normale OR wordt het de informatie doorgestuurd als er minstens
 één 1 is bij de waarden.
@@ -956,12 +1015,11 @@ een XOR.
 
 De OF-pooort kan signalen samenvoegen naar de uitgang.
 
-Exlusieve OF -- poort : 1 vd 2 moet 1 zijn, niet allebei. (XOR)
+Exlusieve OF – poort : 1 vd 2 moet 1 zijn, niet allebei. (XOR)
 
-![](media/image6.png){width="6.311321084864392in"
-height="1.6583005249343832in"}
+<img src="./img/OF-poort.png" style="width:6.31132in;height:1.6583in" />
 
-[Combinatorische schakelingen]{.underline}
+<u>Combinatorische schakelingen</u>
 
 = Een netwerk van logische poorten dat een vooropgestelde functie
 uitvoert.
@@ -969,21 +1027,20 @@ uitvoert.
 Deze worden gebruikt om meer complexere schakelingen te gaan bouwen.
 Denk maar aan een RAM of een ALU.
 
-[Decoder]{.underline}
+<u>Decoder</u>
 
 Alle uitgangen zijn 0 behalve op de plaats die de index aanduid (zie
 foto)
 
 Opm! : bij een decoder is precies één uitgang hoog.
 
-![Afbeelding met tafel Automatisch gegenereerde
-beschrijving](media/image7.jpg){width="6.3in"
-height="2.4229166666666666in"}
+<img src="./img/Decoder.jpg" style="width:6.3in;height:2.42292in"
+alt="Afbeelding met tafel Automatisch gegenereerde beschrijving" />
 
-[\
-]{.underline}
+<u>  
+</u>
 
-[Multiplexer]{.underline}
+<u>Multiplexer</u>
 
 = een combinatie van een decoder, EN-doorlaatfilters en een
 OF-samensteller.
@@ -991,14 +1048,12 @@ OF-samensteller.
 De ingang waarvan de index op de adreslijnen staat wordt doorgegeven aan
 de uitgang.
 
-![](media/image8.png){width="3.1692913385826773in"
-height="3.5418733595800527in"}
+<img src="./img/Multiplexer.png" style="width:3.16929in;height:3.54187in" />
 
 We kunnen de multiplexer eenvoudiger maken door de EN-Doorlaatfilers
 samen te gaan voegen
 
-![](media/image9.png){width="3.106299212598425in"
-height="3.541334208223972in"}
+<img src="./img/EN-Doorlaatfilters.png" style="width:3.1063in;height:3.54133in" />
 
 herhaling optelling in binair
 
@@ -1006,27 +1061,27 @@ herhaling optelling in binair
 
 1+0 = 1
 
-[1+1 = 0 (eigen 2, maar 2 bestaat niet in een binair stelsel -\> 0 :
-OVERFLOW)]{.mark}
+<span class="mark">1+1 = 0 (eigen 2, maar 2 bestaat niet in een binair
+stelsel -&gt; 0 : OVERFLOW)</span>
 
 0+0=0
 
-![Afbeelding met tafel Automatisch gegenereerde
-beschrijving](media/image10.jpg){width="4.4866032370953635in"
-height="2.8396227034120733in"}
+<img src="./img/Optelling.jpg" style="width:4.4866in;height:2.83962in"
+alt="Afbeelding met tafel Automatisch gegenereerde beschrijving" />
 
-![](media/image11.jpg){width="6.231944444444444in"
-height="3.54375in"}Halve opteller vs volledige opteller
+<img src="./img/Optellers.jpg" style="width:6.23194in;height:3.54375in" />Halve
+opteller vs volledige opteller
 
-**[[Hoofdstuk 5: interne computeronderdelen]{.underline}]{.mark}**
+**<span class="mark"><u>Hoofdstuk 5: interne
+computeronderdelen</u></span>**
 
-[5.1 -\> Algemeen schema]{.underline}
+<u>5.1 -&gt; Algemeen schema</u>
 
-![](media/image12.png){width="6.3in" height="4.2972222222222225in"}
+<img src="./img/Hoofdonderdelen.png" style="width:6.3in;height:4.29722in" />
 
 Zie ook op dia: moederbord met deze onderdelen van de MSI computer.
 
-[5.2 -\> De ALU]{.underline}
+<u>5.2 -&gt; De ALU</u>
 
 Arithmetic & Logic Unit
 
@@ -1035,13 +1090,13 @@ uitvoert op 2 n-bit operanden.
 
 Alle bewerkingen worden tegelijk uitgevoerd.
 
-[5.3 -\> Bouwstenen van een geheugen]{.underline}
+<u>5.3 -&gt; Bouwstenen van een geheugen</u>
 
 1\) De SR-latch
 
 Om een geheugen te gaan maken is er feedback (=terugkoppeling) nodig.
 
-Dit gaan we doen via de SR -- latch.
+Dit gaan we doen via de SR – latch.
 
 S= set
 
@@ -1049,10 +1104,9 @@ R = reset
 
 Je hebt een 1 bit geheugen dat is opgebouwd uit 2 NOR poorten
 
--   2 stabiele toestanden
+-> 2 stabiele toestanden
 
-![](media/image13.png){width="2.547169728783902in"
-height="1.1681955380577427in"}
+<img src="./img/SR-latch.png" style="width:2.54717in;height:1.1682in" />
 
 De geklokte SR : de waarde van 1 komt tijdelijk in een S en R ingang te
 zitten. De klok is meestal laag (0) en wordt dan eventjes hoog (1) zodat
@@ -1078,8 +1132,8 @@ blijft!
 Deze schakeling onthoudt de toestand van ingang D bij elke stijgende
 flank op de klok-ingang (CK)
 
-![Scannen0005.tif](media/image14.png){width="3.825641951006124in"
-height="2.0911996937882766in"}
+<img src="./img/D-flip-flop.png" style="width:3.82564in;height:2.0912in"
+alt="Scannen0005.tif" />
 
 voordelen:
 
@@ -1093,8 +1147,7 @@ voordelen:
 -   De puls moet ook voldoende kort zijn. Want hoe korter de puls, hoe
     sneller we zaken in het geheugen kunnen schrijven.
 
-![](media/image15.png){width="4.249362423447069in"
-height="2.8938003062117237in"}
+<img src="./img/Voorstelling-D-flip-flops.png" style="width:4.24936in;height:2.8938in" />
 
 3\) Een register
 
@@ -1104,7 +1157,7 @@ clock en clear pinnen gecombineerd zijn.
 De functie hiervan is is om een 8-bit woord op de D-pinnen vast te
 kunnne houden bij een stijgende flank op de CK pin.
 
-[5.4 -\> Het RAM-Geheugen]{.underline}
+<u>5.4 -&gt; Het RAM-Geheugen</u>
 
 Een register is handig om tijdelijk informatie in op te slaan. We willen
 graag nu een soort chip waarin miljarden computerwoorden bewaard kunnen
@@ -1144,7 +1197,7 @@ De communicatie met het geheugen gebeurt adhv:
 >
 > Schematische voorstelling van dit alles:
 >
-> ![](media/image16.png){width="6.3in" height="4.281944444444444in"}
+> <img src="./img/Schematische_voorstelling_RAM.jpg" style="width:6.3in;height:4.28194in" />
 
 De cellen zijn D-flip-flops. 1 flip-flop houdt 1 bit van 1
 geheugenlocatie vast.
