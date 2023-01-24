@@ -1,0 +1,103 @@
+Commando's Computer Networks I (Voor het instellen van devices):::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+enable -> Van de User EXEC mode naar de privileged EXEC mode te gaan
+
+disable -> Van de Privleged EXEC mode naar de User EXEC mode te gaan.
+
+Configure terminal -> Om het device te gaan configureren 
+
+
+
+==Privleged EXEC mode (na enable)==
+
+coppy running-config startup-config -> om de huidige configuraties te gaan opslaan op de NVRAM.
+
+erase startup-config -> om de opgeslagen configuratie te gaan verwijderen.
+
+reload -> om de router te gaan herladen.
+
+show flash -> dit gaat de inhoud van de flash opslag tonen. Dit is een soort back-up opslag waar je ook de running-config kunt gaan opslaan.
+
+copy startup-config flash -> hiermee ga je de huidige startup-config gaan opslaan in de flash.
+
+show ip route -> om de routing table op te vragen 
+
+
+
+
+==Na configure terminal==
+
+
+line console 0 -> Dit gaan we gebruiken om een bepaalde lijn te gaan 
+					configureren. Bijvoorbeeld een console, SSH of Telnet verbinding.
+			
+interface <<interface>> -> Om een bepaalde interface te gaan configureren.
+							denk aan interface vlan1. 
+							Voorbeelden: switchpoort/routerinterface
+							
+							
+exit -> om uit de configure prompt te gaan.
+
+end -> als je bijvoorbeeld een line configureerd om meteen terug naar
+		de privileged EXEC mode te gaan.
+		
+hostname <<name>> -> voor het instellen van een naam voor een toestel.
+
+
+no hostname -> om het toestel opnieuw de default naam te geven ipv een zelf ingestelde naam.
+
+
+line console 0 | password <<password>> | login -> voor het instellen van een wachtwoord voor de user exec mode (inloggen op het toestel)  : De login is verplicht! 
+
+
+enable password <<password>> -> voor het instellen van een wachtwoord voor toegang tot de privileged exec mode. DIT IS EEN GEËNCRYPTEERD WACHTWOORD!!!
+enable secret <<password>>   -> instellen van een wachtwoord voor toegang tot de privileged exec mode. DIT IS EEN GEËNCRYPTEERD WACHTWOORD!!!
+
+
+line vty 0 15 | password <<password>> -> toegang tot deze bepaalde lijn gaan beveiligen.
+
+
+service password-encryption -> om de wachtwoorden die werden ingesteld te gaan configureren  : geen platte tekst meer.
+
+
+show running-config -> om te gaan controleren of de wachtwoorden nu effectief zijn geëncrypteerd, ook om informatie over het toestel te krijgen.
+
+banner motd <<MESSAGE>> -> een soort waarschuwingsbericht dat men krijgt wanneer men het toestel opstart. Bijvoorbeeld om te waarschuwen dat niet geauthorizeerde toegang verboden.
+
+
+interface vlan1 | ip address <<ADDRESS>> | no shutdown -> instellen van een ip adres op een toestel op de interface vlan1.
+
+no ip-domain lookup -> om ongewenste DNS lookups te vermijden.
+
+ip default-gateway <<ADDRESS>> -> om het IP-address van de DGW in te stellen.
+
+ipv6 unicast-routing -> om ervoor te zorgen dat de router (het apparaat) ipv6 pakketten kan versturen.
+
+ipv6 address <<ADDRESS>> -> voor het instellen van een ipv6 address op een router/switch 
+
+ipv6 address <<ADDRESS>> link-local -> voor een link local adres in te stellen. Dit wordt gebruikt zodat het apparaat met andere ipv6 apparaten kan communiceren.
+
+no ipv6 address <<ADDRESS>> -> dit is voor het verwijderen van een ingesteld ipv6 address. Dit is nuttig wanneer je bijvoorbeeld het verkeerde adres hebt ingesteld.
+
+ip domain-name <<NAME>> -> om een domein naam te gaan instellen voor het apparaat.
+
+crypto key generate rsa -> voor het maken van een geëncrypteerde sleutel.
+
+username <<USERNAME>> secret <<PASSWORD>> -> voor het aanmaken van een locale database user.
+
+transport input ssh||telnet -> voor het aanmaken van een SSH/telnet verbinding
+opmerking -> dit commando gebruik je na line vty 0 15 en na dit commando gebruik je login local anders zal het niet werken.
+
+ssh -l <<ADDRESS>> -> dit wordt gebruikt om van het ene toestel remote in te loggen op het andere wanneer er een SSH/telnet verbinding is aangemaakt.
+
+==IN EEN PC COMMAND PROMPT== 
+
+ping -> om te kijken of een ip-adres goed is ingesteld of een apparaat beschikbaar is.
+
+ipconfig (/all) -> om informatie te verzamelen rond ipv4.
+
+ipv6config (/all) -> om informatie te verzamelen rond ipv6.
+
+
