@@ -1,0 +1,262 @@
+LINUX COMMANDO'S 
+
+
+3.3: Commandostructuren
+
+==================INFORMATIE TONEN==================
+
+ls -> Voor het tonen van de inhoud in de huidige map.
+ls/etc/ppp -> Voor het tonen van de inhoud in een andere map die wordt benoemd (=argument)
+ls -l -> Voor meer info te krijgen over de bestanden in de map (wnr gemaakt bv) 
+(commando) | more -> voor meer informatie te krijgen
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+==================GESCHIEDENIS======================
+
+Pijltje omhoog (voor het vorige command te zien) 
+history (lijst met vorige commands) 
+history 5 (dan gaat hij de laatste 5 commando's tonen)
+
+na history : !3 (hij gaat het 3de commando uit de history lijst gaan uitvoeren)
+
+!! (om het meest recente commando te gaan uitvoeren)
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+==================VARIABELEN======================
+
+-------Lokale variabelen-------
+
+variable1=hallo iedereen (voor het declareren van een variabele)
+echo $variable1 (voor de waarde te tonen vaan een variabele)
+
+-------Globale variabelen-------
+
+echo $HISTSIZE (geeft de grootte van de history geschiedenis mee)
+echo $PATH (toont alle plaatsen waar het systeem kan zoeken naar uitvoerbare programma's) 
+env (geeft een lijst met alle omgevingsvariabelen) => env | more (dit geeft je meer omgevingsvariabelen)
+export (wordt gebruikt om lokale variabelen globaal te maken)
+unset (wordt gebruikt om geëxporteerde variabelen te gaan verwijderen)
+grep (wordt gebruikt om te kijken of het bestand/variabele in een bepaalde lijst staat) => var=15 // export var // env | grep var !!! dan gaat hij var tonen met de waarde 15 
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+==================ALIASSEN======================
+
+alias (om de huidige aliasen van de shell te zien)
+type (geeft info over bepaalde aliasen) 
+alias (naam)=(commando) (voor het instellen van een commando) => alias nieuwecommand=history (nu zal nieuwecommand dezelfde functie hebben als history)
+
+
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+==================AANHALINGSTEKENS==============
+
+echo '$begrip' --> output: $begrip
+echo "$begrip" --> output : $begrip MAAR de command wordt wel nog uitgevoerd
+echo `date` == echo $(date) : commandovervanging
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+==================HULP_VRAGEN===================
+
+man echo (gaat informatie geven over een bepaald commando, in dit geval echo) 
+man -f passwd (geeft je ALLE manpages die gaan over passwd) 
+man -k passwd (hiermee zoek je waar de term allemaal voorkomt) 
+whereis passwd (om de locatie van of de man pages van een bepaald command te vinden)
+locate (mapnaam) (om de locatie van een map/bestand te vinden)
+locate -c echo (gaat je tonen op hoeveel locaties echo gevonden is) 
+locate -b (command) (gaat je meer gedetailleerd tonen waar er bestanden hiervan gevonden zijn.)
+(command) --help (voor basisinformatie te krijgen omtrent een command)
+
+
+==================BESTANDSSYSTEMEN===================
+
+ls -l / (gaat je meer informatie geven over alle bestanden in de / map (=ROOT!)) 
+pwd (toont in welke map/directory de gebruiker zich momenteel bevindt)
+cd (mapnaam) (we gaan de huidige map gaan veranderen) --> Door gewoon cd te gaan gebruiken gaan we terug naar de home directory (~)
+.. -> (wordt gebruikt om 1 plaatsje hoger te gaan in de mappenstructuur)
+. -> (wordt gebruikt om te referen naar de huidige directory)
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+==================INHOUD_VAN_MAPPEN===================
+
+ls (inhoud van mappen tonen)
+ls -l (inhoud van mappen tonen met meer detail dus bv een datum) 
+ls -a (toont alle bestanden, inclusief verborgen bestanden)
+ls -R (toont de bestanden van een map EN die van de submappen) 
+ls -S (toont de bestanden gesorteerd op grootte)
+tree (een overzicht van de bestandsstructuur vanaf de huidige map) -> Kun je combineren (tree | more OF tree | less) 
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+==================Globbing===========================
+
+* -> Gaat ons alle bestanden geven die beginnen met een bepaalde letter (vb : echo /etc/t* // Geeft alle bestanden beginnend met de letter t)
+? -> Staat voor precies 1 teken (vb: echo/etc/*.??? // Geeft alle bestanden die een extensie hebben van 3 tekens lang)
+[] -> Als je meerdere letters wilt gaan toevoegen (vb: echo /etc/[abc]* // Geeft alle bestanden die beginnen met de letter a, b of c) 
+	Ander voorbeeld : echo /etc/[a-r]* // Geeft alle bestanden die beginnen met letters tussen de a en r (a & r meegerekent)
+
+[!xy] -> Hetzelfde als hierboven, maar hierbij gaan we in dit geval alle bestanden tonen die niet deze characters hebben.
+	vb: echo /etc/[xy]* -> Dit commando zal je alle bestanden tonen die NIET beginnen met een x of een y.
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+==================Bestands-en mapstructuur===========================
+
+cp -> Dit gebruiken we om bestanden te gaan kopiëren. We hebben een bron nodig die we willen gaan kopiëren en een locatie voor het extra bestand.
+vb: cp Documents/words Music (nu zal het document 'words' gekopiëerd worden en in de map Music gezet)
+
+cp -v -> Dit gaat een extra output geven die gaat valideren of het bestand goed gecopied is.
+cp -i -> vraagt of een bestand overschreven mag worden
+cp -r -> Om de hele bestandsstructuur te gaan kopiëeren == dus eigenlijk vr het kopiëeren van mappen.
+
+mv -> (=move) voor het verplaatsen van bestanden (!rechten nodig!) 
+
+mv -v -> ''
+mv -i -> '' 
+mv -n -> Dit zorgt ervoor dat de documenten niet worden overschreven in de doelmap
+
+mv dient niet alleen voor het verplaatsen van docs, we kunnen er ook docs mee hernoemen
+vb: zie word
+
+touch -> Voor het maken van bestanden (touch nieuw)
+echo 'ik ben een nieuw bestand' > nieuw (om de tekst in het nieuw gemaakte bestand 'nieuw' te stoppen)
+cat -> Om de inhoud van een bepaald document te gaan opvragen. (cat nieuw ---> ik ben een nieuw bestand)
+
+mkdir -> gebruiken we om een nieuwe map aan te maken (mkdir nieuweMap)
+met de optie -p kun je meteen een mappenstructuur gaan aanmaken
+
+rm -> Voor het verwijderen van bestanden (je kan globbing gebruiken voor het verwijderen van meerdere bestanden in 1x)
+rm -r -> Voor het verwijderen van mappen
+rm -f -> Om alles meteen te gaan verwijderen zonder enige bevestiging.
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+=======================Links===========================
+
+ln -> voor het maken van een hard link
+ln -s  -> voor het maken van een soft link
+
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+==================WERKEN MET TEKST==================
+
+cat -> Om de inhoud van een doc weer te geven 
+cat -n -> hiermeek an je aangeven hoeveel regels je wilt zien
+ls /etc | head -> het argument 'head' gaan we gebruiken om de eerste 10 regels weer te geven
+ls /etc | tail -> het argument 'head' gaan we gebruiken om de laatste 10 regels weer te geven
+
+touch new
+echo 'ik ben een nieuw bestand' > new -> tekst toevoegen aan een bestand
+
+echo 'dit is de tweede regel' >> new -> via 2x '>' gaan we de tekst niet overschrijven, maar toevoegen
+
+
+1> 
+ls Documents 1> outputfile (we gaan de output van het commando 'ls Documents' gaan opslaan in outputfile) 
+
+
+2>
+ls /fake 
+(foutmelding)
+ls /fake  errorfile (hierdoor gaan we de foutmelding gaan opslaan in een tekstbestand) 
+
+&> 
+ls Documents /fake &> allfile (voor beide meteen te gaan toevoegen in een document) 
+
+tr 'a-z' 'A-Z' < animals.txt (om de standaardinput te gaan wijzigen, nu zal alles in caps staan) 
+
+sort new (de inhoud van een bestand gaan sorteren -> op alfabetische wijze) 
+-n : voor nummerieke ordening
+-t : om af te wijken van het standaard veldscheidingsteken
+-k : om aan te geven op welk veld er moet gesorteerd worden
+
+
+wc (om het aantal regels, woorden en bytes van een bestand te tonen) 
+wc -l -> alleen het #regels
+wc -w -> alleen het #woorden
+wc -c -> alleen het #bytes
+
+cut (om tekstkolommen uit een bestand of standaardinvoer te halen) 
+
+
+
+grep (om regels te gaan doorzoeken in documenten) 
+grep 'r..f' red.txt -> roof, reef
+grep '....' -> woorden met 4 letters
+zie slides -> belangrijk
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+==================Groepen aanmaken==================
+
+groupadd -> voor het aanmaken van een nieuwe groep
+
+!opm! -> je moet hiervoor ingelogd zijn als rootadmin 
+dit doe je via het commando su 
+
+-g -> voor het instellen van een group id (doe je dit niet dan zal dit automatisch gebeuren) 
+
+cat /etc/group -> voor het tonen van een lijst met alle groepen die gekend zijn in het systeem
+
+groupmod -> voor een groep te gaan aanpassen (hangt af vd optie) 
+-n -> groepsnaam aanpassen
+-g -> groepsID aanpassen
+
+groupdel -> voor het verwijderen van een groep
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+==================Gebruikers aanmaken==================
+
+useradd -> voor het toevoegen van een nieuwe gebruker
+-D -> om de standaardwaarden te gaan nakijken die worden ingesteld per (nieuwe) gebruiker.
+
+!opm! -> je moet hiervoor ingelogd zijn als rootadmin 
+dit doe je via het commando su
+
+cat/etc/passwd -> om de waarden van de gebruikers te zien.
+
+passwd -> voor het instellen van een ww voor een gebruiker
+passwd -l -> voor het vergrendelen van een gebruiker
+passwd -u -> voor opnieuw toegang te verlenen
+
+id -> voor het bekijken van je user en groepsid
+dit kun je ook gebruiken om het id van andere users na te gaan
+
+who -> om te kijken als wie je bent ingelogd
+w -> om te kijken wie er zoal is ingelogd in het systeem
+
+
+usermod -> voor het instellen van de gebruikersinstellingen
+usermod -aG -> om een gebruiker toe te gaan voegen aan een groep.
+
+userdel -> voor het verwijderen van gebruikers
+su -> om in te loggen als een andere gebruiker, als je geen naam opgeeft dan log je in als rootgebruiker
+exit -> om het profiel te verlaten
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+==================Permissies==================
+
+ls -l -> om de toegekende rechten te gaan bekijken
+umask -> voor het zien van de standaardrechten of om deze in te stellen (de umask waarden) 
+chmod -> de rechten voor een bepaald doc gaan instellen 
+
+
+==================Scripts==================
+
+vi -> voor het gebruik te maken van een teksteditor
+read -> om variabelen in te lezen
+
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
