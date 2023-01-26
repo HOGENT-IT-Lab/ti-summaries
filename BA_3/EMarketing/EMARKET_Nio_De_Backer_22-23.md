@@ -211,9 +211,17 @@ Attribution types:
 
 ## Social media
 
+### Trends
+- Rebuilding trust
+- Optimism in the efficacy of less traditional networks is growing
+- Decline in organic reach
+- Social commerce
+- Increasing negative sentiment
+- Tiktok
+- Metaverse?
 ### Meta Ads
-- Reach and frequency buying 
-- Auction buying
+- Reach and frequency buying: more general, larger audience, *control frequency*
+- Auction buying: more specific, smaller scale
 
 Targeting options:
 - Demographics
@@ -223,18 +231,114 @@ Targeting options:
 - remarketing
 - look-alike audiences
 
+Adtypes
+- Static / Image
+- Boosted Posts
+- Video – Feed, Stories, …
+- Canvas ads
+- Carousel ad
+- Collection
+- Lead ads
+
 
 ## AI
 
-- AI vs Machine Learining vs Deep learning
+- AI: Science like math or biology
+- Machine Learining: system that learns by itself without explicit programming
+- Deep learning: type of ML that mimicks human neural system
 
-Deep Neural Network
+### Deep Neural Network
 
-Overfitting & underfitting
+We give it examples with correct solution -> calculate cost: how correct are predictions
 
-General adversarial network
+Overfitting: to adapted to set so cant predict anything else & underfitting: not trained enough
 
-Recommendation systems
+### General adversarial network
+
+Two neural networks battle it out! A generative vs discriminative network
+
+Used by image generation from natural language
+### Recommendation systems
 - Candidate generation: content based or collaborative filtering
 - Scoring
 - Reranking
+
+Used by TikTok, YT, ... and Google Ads aswell!
+
+## Extra: Google Display Ads Cerft
+
+### Google Ads
+
+3 principles: relevance, control & results.
+- relevant: reacht right people, at right time with right message
+- control: control your budget and spending on advertising per moth, per day, per ad
+- results: only pay for results like clicks or conversion, monitor performance of ads
+
+reasons to use:
+- stimulate sales
+- generate leads
+- increase website visits
+- influence product consideration
+- increase brand awareness
+- promote an app
+
+Display: nework of +2.000.000 sites, reach nearly 90% of internet users worldwide
+
+### Campaign types
+
+Standard Display campaigns
+
+Smart Display Campaigns
+- input: content, image, daily budget and performance goals for CPA
+
+### Display targeting
+Select targeting based on goals
+- Brand recognition >
+  - demographic (eg male 18-24)
+  - affinity (standard categories by google)
+  - custom affinity (eg baseball fans)
+- Product consideration >
+  - in-market (looking for *product*)
+  - custom intention (eg looking for vacuumcleaners)
+  - similar target groups (eg looking to clean house)
+- stimulate action
+  - remarketing
+  - dynamic remarketing (need to save data when target visited site)
+
+### Automatic bidding
+
+choose bidding strategy
+- brand awareness
+  - visibility
+  - goal: performance
+- consideration
+  - goal: clicks
+  - maximalise clicks
+- conversions (smart bidding)
+  - goal: conversions
+  - maximalise conversions
+  - goal cost per acquisition
+  - enhanced cost per click
+- revenue (smart bidding)
+  - goal: revenue
+  - goal-ROAS (return on ad spend )
+
+### Types of display ads
+
+Responsive
+- automised
+- reach
+- simple
+
+Uploaded
+- full control
+
+AMP ads: Accelerated Mobile Pages ads
+
+### Performance planner
+
+plan budget and spending
+
+recommended monthly checkup
+
+plan campaigns and get recommendations
