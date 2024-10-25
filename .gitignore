@@ -1,0 +1,47 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.Python
+
+# Packages
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# virtuele omgevingen
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ChromaDB
+chroma/
+
+# VSCODE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+### Ignore Python-specific configurations ###
+# VSCODE
+.history/
