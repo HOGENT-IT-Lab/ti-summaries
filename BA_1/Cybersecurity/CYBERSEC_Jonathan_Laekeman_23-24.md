@@ -863,7 +863,7 @@ Het is soms mogelijk om **algoritmen** te **kraken** door **op zoek** te gaan na
 -> Voor het kraken van moderne algoritmen worden vaak volgende technieken gebruikt
 - *Dictionary attack*: uitproberen van verschillende waarden uit een **opgegeven lijst** (bv. woordenboek of dump van wachtwoorden)
 - *Brute-force attack*: uitproberen van **alle mogelijke waarden** voor de geheime sleutel (heel tijdsintensief!)
-- *Rainbow tables*: gebruikt vooraf **gemaakte, gesorteerde lijsten** met **cipher text** en de **overeenkomstige plain text**, wordt gebruikt voor het **kraken** van **hashing algoritmen** -> zie [Les 7 H5 Integrity (Cybersecurity)](../images/Les%207%20H5%20Integrity%20(Cybersecurity))
+- *Rainbow tables*: gebruikt vooraf **gemaakte, gesorteerde lijsten** met **cipher text** en de **overeenkomstige plain text**, wordt gebruikt voor het **kraken** van **hashing algoritmen** 
 
 ### CPU, GPU, AI of quantum computing?
 #### CPU en GPU
