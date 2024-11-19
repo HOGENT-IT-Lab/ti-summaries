@@ -245,7 +245,7 @@ kansen op basis van drie dimensies:
 
 2.1 -&gt; De 3 dimensies van de cybersecurity kubus
 
-<img src="./img/Cube.png" />
+![Cube](images/Cube.png)
 
 1: Bevelgingsprincipes
 
@@ -1756,7 +1756,7 @@ social engineering
 
 Domein 7: het applicatiedomein
 
-<img src="./img/ApplicatieDomein.png" style="width:6.3in;height:3.24236in" />
+![ApplicatieDomein](images/ApplicatieDomein.png)
 
 <u>8.2 -&gt; De ethiek van werk in cybersecurity</u>
 
